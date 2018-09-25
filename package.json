@@ -1,0 +1,32 @@
+{
+  "name": "cat-testing",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-loader-spinner": "^2.0.6",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.5",
+    "react-test-renderer": "^16.5.2",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "e2e": "nightwatch",
+    "e2e-chrome": "nightwatch --env chrome",
+    "e2e-firefox": "nightwatch --env firefox",
+    "eject": "react-scripts eject",
+    "updateSnapshots": "jest --updateSnapshot"
+  },
+  "devDependencies": {
+    "nightwatch": "^0.9.21"
+  },
+  "jest": {
+    "coverageReporters": ["json", "html"]
+  }
+}
